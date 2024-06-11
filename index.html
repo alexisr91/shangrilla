@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="fr">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Shangrilla</title>
+</head>
+<body>
+	<main class="justify-content-center mw-100">
+
+		<!-- barre top information -->
+		<header class="col-md 12">
+			<div class="d-flex justify-content-center login">
+				   <span class="enbas"><i class="fas fa-phone-alt p-2"></i>000-0000-000</span>
+				   <div class="verticalline"></div>  <!-- Ligne vertical entre les span -->
+				   <span class="enbas"><i class="fas fa-phone-alt p-2"></i>111-1111-2222</span>
+			
+				   	  <span class="mail"><i class="fas fa-envelope-open-text mb-2"></i>email@email.fr</span>
+
+				   	 <div class="connexion">
+                          <span class="log"><i class="fas fa-sign-in-alt"></i>Se connecter</span>
+				   	 	  <div class="verticalline"></div>  <!-- Ligne vertical entre les span -->
+				   	  	  <span class="log"><i class="far fa-file-alt" id="a"></i>S'inscrire</span>
+				   	  	  <div class="verticalline"></div>
+				   	  	  <i class="fas fa-globe-asia log"></i>
+				   	  	  <form method="post" action="validation.php" class="log">
+				   	  	  	<p><select name="pays" id="pays" class="pays">
+				   	  	  		<option value="France">France</option>
+				   	  	  		<option value="UK">UK</option>
+				   	  	  		<option value="Espagne">Espagne</option>
+				   	  	  		<option value="Allemagne">Allemagne</option>
+				   	  		</p>
+				   	  	  		</select>	
+				   	  	  </form>
+				   	 </div>	  
+			</div>
+
+
+
+<!-- Navbar -->
+	<img src="img/logo.png" alt="logo" class="logo-shangrilla mb-4 mt-3"> <!-- Logo -->
+
+
+					 <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+					 	<ul>
+					 		<li><a href="#" style="text-decoration: none; color: black;">Accueil</a></li>
+					 		<li><a href="#" style="text-decoration: none; color: black;">A propos</a></li>
+					 		<li><a href="#" style="text-decoration: none; color: black;">Reservation</a></li>
+					 		<li><a href="#" style="text-decoration: none; color: black;">Menu</a></li>
+					 		<li><a href="#" style="text-decoration: none; color: black;">Galerie</a></li>
+					 		<li><a href="#" style="text-decoration: none; color: black;">Blog</a></li>
+					 		<li><a href="#" style="text-decoration: none; color: black;">Boutique</a></li>
+					 		<li><a href="#" style="text-decoration: none; color: black;">Contact</a></li>
+					 	</ul>
+
+					 	<div id="icone1"><i class="fas fa-search"></i></div>
+					 	<div id="icone2"><i class="fa fa-bars"></i></div>
+					</nav> 
+		</header>
+
+
+<!-- Overlay -->
+<section id="presentation" class="d-flex flex-column align-items-center justify-content-center overlay">
+	<!-- <img src="img/image-1.jpg" alt="imagepresentation" width="100%"> -->
+		<h1>Interpellata</h1>
+		<h2>Paucis indinatis</h2>
+	<p class="paragraphe-presentation"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+	<button class="btn"> + DETAILS</button>
+
+
+<!-- Navbar dans overlay -->
+<div class="menu-overlay">
+	<nav class="d-flex navbar navbar-expand-sm bg-light justify-content-center">
+		<ul>
+			<img src="img/logo.png" alt="logo-overlay" width="150" class="mr-2"> 
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">Accueil</a></li>
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">A propos</a></li>
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">Reservation</a></li>
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">Menu</a></li>
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">Galerie</a></li>
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">Blog</a></li>
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">Boutique</a></li>
+			<li class="elementmenu-overlay"><a href="#" style="text-decoration: none;">Contact</a></li>
+		</ul> 
+	</nav> 
+</div>
+</section>
+
+
+<section id="commande-produit" class="col-md 12">
+		<h3>Cum Totidemqus</h3>
+		<h4>paucis indignitatis</h4>
+
+<table class="order-product">
+
+	<tr><td><figure><img src="img/2.jpg" alt="Produit1" width="270" height="190"><figcaption><h5>Déjeuner</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore. <button class="mr-2">Order</button></figcaption><figure></td>
+
+	<td><img src="img/delicious_2.jpg" alt="Produit2"><figcaption><h5>Déjeuner</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore  <button>Order</button></figcaption></td></tr>
+	
+	<tr><td><img src="img/delicious_3.jpg" alt="Produit3"><figcaption><h5>Déjeuner</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore  <button>Order</button></figcaption></td>
+
+	<td><img src="img/delicious_4.jpg" alt="Produit4"><figcaption><h5>Déjeuner</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore  <button>Order</button></figcaption></td></tr>
+
+</table>
+</section>
+
+
+<!-- Galerie d'image -->
+
+<section id="image-plats" class="col-md-12">
+
+
+	<h3>Nos plats</h3>
+	<h4>paucis indignitatis</h4>
+
+
+	<table>
+		<tr>		
+			<td><img src="img/1.jpg" class="img-fluid" alt="photo-cuisine1"></td>
+			<td><img src="img/2.jpg" class="img-fluid" alt="photo-cuisine2"></td>
+			<td><img src="img/3.jpg" class="img-fluid" alt="photo-cuisine3"></td>
+			<td><img src="img/4.jpg" class="img-fluid" alt="photo-cuisine4"></td>
+		</tr>
+		<tr>
+			<td><img src="img/5.jpg" class="img-fluid" alt="photo-cuisine5"></td>
+			<td><img src="img/6.jpg" class="img-fluid" alt="photo-cuisine6"></td>
+			<td><img src="img/7.jpg" class="img-fluid" alt="photo-cuisine7"></td>
+			<td><img src="img/8.jpg" class="img-fluid" alt="photo-cuisine8"></td>			
+		</tr>
+	</table>
+</section>
+
+
+<!-- Photo équipe -->
+
+<section class="col-md-12 equipe">
+		<h3>Asbolium Supra</h3>
+		<h4>Asbolium supra dixtos</h4>
+
+<div class="d-flex flex-row text-center justify-content-center">
+				<div>	
+				<img src="img/chef-1.jpg" alt="employe1">
+				<p class="equipe-texte1">Asbolium supra</p>
+				<p class="equipe-texte2">Asbolium supra dixtos</p>
+				</div>
+
+
+
+				<div>
+				<img src="img/chef-2.jpg" alt="employe2">
+				<p class="equipe-texte1">Asbolium supra</p>
+				<p class="equipe-texte2">Asbolium supra dixtos</p>
+				</div>
+
+
+				<div>
+				<img src="img/chef-3.jpg" alt="employe3">
+				<p class="equipe-texte1">Asbolium supra</p>
+				<p class="equipe-texte2">Asbolium supra dixtos</p>
+			</div>
+</div>
+</section>
+
+
+<!-- Deuxieme Overlay -->
+<section class="overlay2">
+
+		
+			<img src="img/image-2.jpg" alt="overlay2";>
+			<p class="texte-overlay2">interpellata paucis</p>
+		
+</section>
+
+
+
+<!-- Reservation client -->
+<section class="reservation ">
+			<h3> Reservation</h3>
+			<h4>Service adapté à vos envies</h4>
+
+<div class="d-flex flex-row text-center justify-content-center">
+
+
+	<p class="mx-5 reservation-client">
+		<form method="post" action="index.php">
+			<i class="fas fa-calendar-alt fa-2x"></i>
+			<input type="date" name="date">
+		</form>
+
+
+
+		<form method="post" action="index.php">
+			<i class="fas fa-clock fa-2x"></i>
+			  <select name="time">
+				    <option value="1">17:00</option>
+				    <option value="2">18:00</option>
+				    <option value="3">19:00</option>
+				    <option value="4">20:00</option>
+			  </select>
+			</form>
+
+
+			<form method="post" action="index.php">
+			<i class="fas fa-id-badge fa-2x"></i>
+			  <select name="personne">
+				    <option value="1">1 personne</option>
+				    <option value="2">2 personnes</option>
+				    <option value="3">120 000 personnes</option>
+			  </select>
+		</form>
+	</p>
+</div>	
+
+
+<button class="reservation-bouton">Réserver</button>
+</section>
+
+
+<section class="commentaire-client">
+		<img src="img/chef-thumb.jpg" alt="client-commentaire" class="img-fluid">
+
+		<div class="commentaire">" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua"
+		</div>
+</section>
+
+
+<!-- Blog cuisine article -->
+<section class="blog col-md-12">
+				
+	<h3 style="text-align: center;">Our Blog</h3>
+	<p style="text-align: center">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+<div class="blog d-flex flex-row justify-content-center">
+
+<div class="card-group">
+		  <div class="card">
+		    <img src="img/news-1.jpg" class="card-img-top" alt="photocuisine9">
+		    <div class="card-body">
+		      <h5 class="card-title">Card title</h5>
+		      <h6 class="card-title">22 Juin 2022 by Peter Parker</h6>
+		      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		    </div>
+		    <div class="card-footer">
+		      <small class="text-muted">+ détails</small>
+		      <small class="text-muted" style="float: right;">2 likes</small>
+		    </div>
+  </div>
+
+  <div class="card">
+    <img src="img/news-2.jpg" class="card-img-top" alt="photocuisine10">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-title">03 Février 1992 by Peter Parker</h6>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">+ détails</small>
+      <small class="text-muted" style="float: right;">42 dislikes</small>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="img/news-3.jpg" class="card-img-top" alt="photocuisine11">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-title">09 Aout by Peter Parker</h6>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">+ détails</small>
+      <small class="text-muted" style="float: right;"> 23 Likes</small>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+</main>
+
+<!-- Footer -->
+
+
+<footer class="row">
+				<div class="row mx-5 ">
+          <div class="col-xs-6 col-md-3">
+            <h6>Informations</h6>
+            <ul class="footer-links">
+              <li><a href="#"> &#x27A2; &nbsp; Lien 1</a></li>
+              <li><a href="#"> &#x27A2; &nbsp; Lien 2</a></li>
+              <li><a href="#"> &#x27A2; &nbsp; Lien 3</a></li>
+              <li><a href="#"> &#x27A2; &nbsp; Lien 4</a></li>
+              <li><a href="#"> &#x27A2; &nbsp; Lien 5</a></li>
+              <li><a href="#"> &#x27A2; &nbsp; Lien 6</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Nos services</h6>
+            <ul class="footer-links">
+              <li><a href="#"> &#x27A3; &nbsp; Lien 1</a></li>
+              <li><a href="#"> &#x27A3; &nbsp; Lien 2</a></li>
+              <li><a href="#"> &#x27A3; &nbsp; Lien 3</a></li>
+              <li><a href="#"> &#x27A3; &nbsp; Lien 4</a></li>
+              <li><a href="#"> &#x27A3; &nbsp; Lien 5</a></li>
+              <li><a href="#"> &#x27A3; &nbsp; Lien 6</a></li>
+            </ul>
+          </div>
+
+
+
+            <div class="col-xs-6 col-md-3">
+            <h6>Contactez-nous</h6>
+            <ul class="footer-links">
+              <li><p>Email :</p></li>
+              <li><a href="#">Lien 2</a></li>
+              <li><p>Téléphone:</p></li>
+              <li><a href="#">Lien 4</a></li>
+              <li><p>Adresse :</p></li>
+              <li><a href="#">Lien 6</a></li>
+            </ul>
+          </div>
+
+     		
+
+            
+            <div class="colonne-liste col-xs-6 col-md-3">
+            <h6>Réseaux sociaux</h6>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fab fa-facebook-square"></i>&nbsp;Facebook</a></li>
+              <li><a href="#"><i class="fab fa-twitter-square"></i>&nbsp;Twitter</a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i>&nbsp;Linkedin</a></li>
+              <li><a href="#"><i class="fab fa-pinterest-square"></i>&nbsp;Pinterest</a></li>
+              <li><a href="#"><i class="fas fa-rss-square"></i>&nbsp;RSS Feed</a></li>
+            </ul>
+  			</div>
+
+
+
+
+  			<div class="row col-md-12 justify-content-center "> <!-- Largeur de l'ecran -->
+  				<ul class="p-2 row col-md-6 mr-2"> <!-- Centrer la liste sur la largeur de l'ecran sur 6 colonnes -->
+  					<li class="col text-center"><a href="#">Accueil </a></li>  <!-- alignement au centre de mes links-->
+  					<li class="col text-center"><a href="#">Produit </a></li>
+  					<li class="col text-center"><a href="#">Reservation </a></li>
+  					<li class="col text-center"><a href="#">Menu </a></li>
+  					<li class="col text-center"><a href="#">Galerie </a></li>
+  					<li class="col text-center"><a href="#">Blog </a></li>
+  					<li class="col text-center"><a href="#">Contact </a></li>
+  				</ul>
+ 				</div>
+
+
+<br>
+<p style=" color: #a49259; padding-left: 0.3em">&copy; Copyright Formation 31</p>
+
+</footer>
+
+
+</body>
+</html>
