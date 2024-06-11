@@ -1,1 +1,1 @@
-# shangrilla-website
+# Shangrilla-website
